@@ -24,3 +24,6 @@ js使えばjavaより楽そう
    - ヘルプ
      - マークダウン記法のチートシート
 
+> 使う色は以下のもの
+> https://www.colordic.org/colorscheme/1033
+
