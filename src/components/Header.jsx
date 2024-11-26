@@ -1,12 +1,18 @@
-import './Header.css'
+import { AppBar, Toolbar, Typography } from '@mui/material';
+import HeaderButton from './HeaderButton';
 
 export default function Header() {
 
     return (
-        <header className='app-bar'>
-            <div className='app-icon'></div>
-            <div className='app-name'></div>
-            <div className='app-buttons'></div>
-        </header>
+        <AppBar position='static'>
+            <Toolbar sx={{display: 'flex', justifyContent: 'flex-start', flexGrow: 1}}>
+                <Typography>
+                    neko-app
+                </Typography>
+                <HeaderButton name = {"ファイル"}/>
+                <HeaderButton name = {"編集"}/>
+                <HeaderButton name = {"ヘルプ"}/>
+            </Toolbar>
+        </AppBar>
     );
 }
