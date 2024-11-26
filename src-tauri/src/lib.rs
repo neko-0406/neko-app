@@ -1,6 +1,3 @@
-use tauri::menu::Menu;
-use tauri::menu::MenuItem;
-use tauri::menu::Submenu;
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 #[tauri::command]
 fn greet(name: &str) -> String {
