@@ -1,0 +1,21 @@
+/* 画面上部のメニューバー */
+.app-bar {
+    background-color: #515a66;
+    height: 40px;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+}
+
+/* 上部メニューバーのボタン */
+.app-bar-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    background-color: #515a66;
+    padding: 2px 5px 2px 5px;
+}
+
+.app-bar-button:hover {
+    background-color: #282d33;
+}
