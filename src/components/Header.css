@@ -1,0 +1,6 @@
+.app-bar {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: cadetblue;
+}

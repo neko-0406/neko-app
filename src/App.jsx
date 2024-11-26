@@ -1,13 +1,10 @@
 // import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
+import Header from "./components/Header";
 function App() {
 
   return (
-    <main className="container">
-      <div className="app-bar">
-        
-      </div>
-    </main>
+      <Header></Header>
   );
 }
 
