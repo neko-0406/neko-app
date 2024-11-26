@@ -1,18 +1,16 @@
-import { Button } from "@mui/material";
-
+import "../App.css"
 /**
- * 
- * @param {name} name
- * @returns HeaderButton
+ * HeaderButton
+ * @param {string} name
+ * @param {string} type
+ * @returns this component
  */
-export default function HeaderButton(props) {
-    const indexName = props.name
+export default function HeaderButton( props ) {
+    const index = props.name;
 
     return (
-        <Button
-            color="fff"
-        >
-            {indexName}
-        </Button>
+        <button className="app-bar-button" type="button">
+            {index}
+        </button>
     );
 }
