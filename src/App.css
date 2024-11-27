@@ -1,3 +1,8 @@
+.root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 /* 画面上部のメニューバー */
 .app-bar {
     background-color: #515a66;
@@ -15,7 +20,12 @@
     background-color: #515a66;
     padding: 2px 5px 2px 5px;
 }
-
 .app-bar-button:hover {
     background-color: #282d33;
+}
+
+/* 中央部分 */
+div.main {
+    display: flex;
+    height: auto;
 }
