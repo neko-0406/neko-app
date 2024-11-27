@@ -2,6 +2,10 @@ import "../App.css"
 import HeaderButton from "./HeaderButton";
 import icon from "../assets/32x32.png"
 
+/**
+ * Header Menu
+ * @returns React Component
+ */
 export default function Header() {
 
     return (
